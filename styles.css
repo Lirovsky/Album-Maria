@@ -1,0 +1,38 @@
+body {
+  background-color: #121212;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+section {
+  column-count: 1;
+  column-gap: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  section {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  section {
+    column-count: 3;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  section {
+    column-count: 4;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  section {
+    column-count: 5;
+  }
+}
